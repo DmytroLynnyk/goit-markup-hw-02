@@ -62,6 +62,7 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .button-text {
@@ -174,6 +175,7 @@ header {
 }
 
 .wawd {
+  color: var(--grey);
   text-align: center;
   columns: var(--navyblue);
 }
