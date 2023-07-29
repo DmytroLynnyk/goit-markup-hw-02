@@ -34,6 +34,7 @@ h2 {
   font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 h3 {
@@ -44,8 +45,6 @@ h3 {
 }
 
 .body {
-  color: #434455;
-  background-color: var(--white);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -102,6 +101,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo-studio-b {
@@ -150,10 +150,10 @@ header {
 }
 
 /* Footer */
-footer {
+.footer {
   background-color: var(--navyblue);
 }
-footer p {
+.footer-desc {
   color: var(--cloud);
 }
 
@@ -166,10 +166,32 @@ footer p {
   text-align: center;
 }
 
-.feature-item {
+.list-item {
   color: var(--navyblue);
 }
-.feature-item-desc {
+.feature-desc {
+  color: var(--slate);
+}
+
+.wawd {
+  text-align: center;
+  columns: var(--navyblue);
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-list {
+  text-align: center;
+  color: var(--grey);
+}
+
+.team-item {
+  background-color: var(--white);
+}
+
+.team-desc {
   color: var(--slate);
 }
 
