@@ -22,14 +22,14 @@ body {
 
 /* Typography */
 
-h1 {
+.header1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
-h2 {
+.header2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -37,7 +37,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-h3 {
+.header3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -198,6 +198,20 @@ header {
 }
 
 /* Portfolio */
+
+.felter-item {
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.portf-item {
+  color: var(--grey);
+}
+
+.portf-desc {
+  color: var(--slate);
+}
+
 .portfoliio-list h3 {
   color: var(--navyblue);
 }
