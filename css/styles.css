@@ -173,6 +173,10 @@ header {
 }
 
 .list-item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 .feature-desc {
@@ -180,6 +184,11 @@ header {
 }
 
 .wawd {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--grey);
   text-align: center;
   columns: var(--navyblue);
@@ -190,6 +199,11 @@ header {
 }
 
 .team-list {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--grey);
 }
