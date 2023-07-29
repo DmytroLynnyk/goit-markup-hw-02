@@ -204,17 +204,15 @@ header {
   background-color: var(--cloud);
 }
 
+.felter-item:hover,
+.felter-item:focus {
+  color: var(--white);
+}
+
 .portf-item {
   color: var(--grey);
 }
 
 .portf-desc {
-  color: var(--slate);
-}
-
-.portfoliio-list h3 {
-  color: var(--navyblue);
-}
-.portfoliio-list p {
   color: var(--slate);
 }
