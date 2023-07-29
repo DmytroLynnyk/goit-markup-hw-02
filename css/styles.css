@@ -14,13 +14,10 @@
   --dairy: #fcfcfc;
 }
 
-html {
-  color: #2e2f42;
-  background-color: #fff;
+body {
+  color: #434455;
+  background-color: var(--white);
   font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  letter-spacing: 0.02em;
 }
 
 /* Typography */
@@ -29,6 +26,7 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -42,6 +40,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .body {
@@ -50,6 +49,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .small-text {
@@ -73,8 +73,11 @@ h3 {
   color: var(--white);
   background-color: var(--iris);
   text-align: center;
+  font-family: inherit;
+  cursor: pointer;
 }
-.button-text:hover {
+.button-text:hover,
+.button-text:focus {
   background-color: var(--ocean);
 }
 
@@ -133,8 +136,16 @@ header {
   font-style: normal;
   color: var(--slate);
 }
-.contact:hover,
+.contacts:hover,
 .contacts:focus {
+  color: var(--ocean);
+}
+
+.contacts-item {
+  color: var(--slate);
+}
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--ocean);
 }
 
@@ -148,8 +159,18 @@ footer p {
 
 /* Studio */
 .hero {
-  color: var(--white);
   background-color: var(--navyblue);
+}
+.hero-logo {
+  color: var(--white);
+  text-align: center;
+}
+
+.feature-item {
+  color: var(--navyblue);
+}
+.feature-item-desc {
+  color: var(--slate);
 }
 
 /* Portfolio */
