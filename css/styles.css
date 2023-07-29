@@ -161,8 +161,6 @@ header {
 /* Studio */
 .hero {
   background-color: var(--navyblue);
-}
-.hero-logo {
   color: var(--white);
   text-align: center;
 }
